@@ -1,0 +1,136 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.services{
+width: 100%;
+height: auto;
+background: efefef;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+padding-top: 70px;
+padding-bottom: 40px;
+margin: 0px;
+
+}
+h1{
+	padding-bottom: 20px;
+	font-weight: 900px;
+}
+
+.serveces-jpg1{
+height: 200px;
+width: auto;
+position: relative;
+border-start-start-radius: 15px;
+border-top-right-radius: 15px;
+
+}
+.serveces-jpg1{
+background: url('img/burger.jpg');
+-webkit-background-size: cover;
+background-position: center;
+}
+
+.serveces-jpg2{
+height: 200px;
+width: auto;
+position: relative;
+border-start-start-radius: 15px;
+border-top-right-radius: 15px;
+
+}
+.serveces-jpg2{
+background: url('img/french-fries.jpg');
+-webkit-background-size: cover;
+background-position: center;
+}
+
+.serveces-jpg3{
+height: 200px;
+width: auto;
+position: relative;
+border-start-start-radius: 15px;
+border-top-right-radius: 15px;
+
+}
+.serveces-jpg3{
+background: url('img/kebab.jpg');
+-webkit-background-size: cover;
+background-position: center;
+}
+
+.serveces-jpg4{
+height: 200px;
+width: auto;
+position: relative;
+border-start-start-radius: 15px;
+border-top-right-radius: 15px;
+
+}
+.serveces-jpg4{
+background: url('img/pizza.jpg');
+-webkit-background-size: cover;
+background-position: center;
+}
+
+.serveces-jpg5{
+height: 200px;
+width: auto;
+position: relative;
+border-start-start-radius: 15px;
+border-top-right-radius: 15px;
+
+}
+.serveces-jpg5{
+background: url('img/kebab1.jpg');
+-webkit-background-size: cover;
+background-position: center;
+}
+
+.service-holder{
+	border-radius: 15px;
+	border: 1.5px solid blue;
+	padding-bottom: 25px;
+}
+
+
+a.button-dot{
+position: relative;
+height: 45px;
+width: 170px;
+border: 1px solid blue;
+font-size: 16px;
+letter-spacing: 1px;
+border-radius: 5px;
+color: blue;
+cursor: pointer;
+background: transparent;
+overflow: hidden;
+transition: 0.6s;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 10px;
+padding-left: 10px;
+
+}
+
+
+a.button-dot:hover:last-child{
+background: blue;
+color: white;
+text-decoration: none;
+}
+
+.service-txt{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.services h2{
+	padding-top: 10px;
+	font-size: 26px;
+}
+
+.service-txt p{
+ margin-bottom: 0px;
+}
