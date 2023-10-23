@@ -27,6 +27,34 @@ color: #ffda07;
 	color: #ffda07;
 }
 
+/* ----------scroll up------------ */
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: #e6c300;
+    right: 30px;
+    bottom: 20px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 20px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
+}
 
 
 /*--------home----------*/
@@ -205,6 +233,48 @@ background: url('img/wings.jpg');
 -webkit-background-size: cover;
 background-position: center;
 }
+
+.serveces-jpg7{
+	height: 200px;
+	width: auto;
+	position: relative;
+	border-start-start-radius: 15px;
+	border-top-right-radius: 15px;
+	
+	}
+	.serveces-jpg7{
+	background: url('img/Karahi.jpg');
+	-webkit-background-size: cover;
+	background-position: center;
+	}
+
+	.serveces-jpg8{
+		height: 200px;
+		width: auto;
+		position: relative;
+		border-start-start-radius: 15px;
+		border-top-right-radius: 15px;
+		
+		}
+		.serveces-jpg8{
+		background: url('img/Beryani.jpg');
+		-webkit-background-size: cover;
+		background-position: center;
+		}
+
+	.serveces-jpg9{
+			height: 200px;
+			width: auto;
+			position: relative;
+			border-start-start-radius: 15px;
+			border-top-right-radius: 15px;
+			
+			}
+			.serveces-jpg9{
+			background: url('img/Salad.jpg');
+			-webkit-background-size: cover;
+			background-position: center;
+			}
 
 .service-holder{
 	border-radius: 15px;
