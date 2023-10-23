@@ -462,7 +462,7 @@ font-size: 13px;
 @media (min-width: 200px) and (max-width: 389px) {
 	.header span {
     color: #ffda07;
-    font-size: 0%;
+    font-size: 13px;
 }
 .header img{
 	size: 70px;
